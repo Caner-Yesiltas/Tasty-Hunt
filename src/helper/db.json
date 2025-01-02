@@ -3,6 +3,7 @@
     {
       "id": "1",
       "title": "Ring Kebab",
+      "description": "Serves 8-10, 15 min Preparation, 30 min Cooking",
       "ingredients": [
         "500 grams ground meat",
         "1 teaspoon salt",
@@ -11,11 +12,13 @@
         "3 potatoes"
       ],
       "preparation": "Peel the eggplants in a striped pattern and slice them into half finger-width pieces. Then, add salt to a bowl of water and mix, place the eggplants in the water for 20 minutes to remove their bitterness. Peel the onions and slice them into circular shapes.",
+      "image": "halka-kebabi.jpg",
       "url": "https://www.nefisyemektarifleri.com/video/halka-kebabi/"
     },
     {
       "id": "2",
       "title": "Stuffed Eggplant (Karniyarik)",
+      "description": "Serves 8-10, 15 min Preparation, 30 min Cooking",
       "ingredients": [
         "6 small eggplants",
         "3 green peppers",
@@ -24,11 +27,13 @@
         "2 green peppers"
       ],
       "preparation": "Peel the eggplants in stripes and soak them in salted water for half an hour to prevent oil absorption. After washing thoroughly, dry them with a towel and fry in little oil. Fry 3 peppers in the oil as well. Then, in the same pan, sauté the chopped onions, add the ground meat and cook for a while, then add peppers and garlic and cook for 2 more minutes.",
+      "image": "karniyarik.jpg",
       "url": "https://www.nefisyemektarifleri.com/video/karniyarik-yemegi-videosu/"
     },
     {
       "id": "3",
       "title": "Sultan's Chicken Kebab",
+      "description": "Serves 8-10, 15 min Preparation, 30 min Cooking",
       "ingredients": [
         "2 phyllo dough sheets",
         "400g chicken breast",
@@ -37,7 +42,77 @@
         "1 tablespoon tomato paste"
       ],
       "preparation": "Peel the eggplant in stripes, cut into small pieces and fry in oil. Let it drain in a colander while you sauté the chicken. Cut the chicken into small cubes and cook in a pot, stirring occasionally. When it changes color and releases its juices, add the chopped onion.",
+      "image": "tavuklu-sultan-kebabi.jpg",
       "url": "https://www.nefisyemektarifleri.com/tavuklu-sultan-kebabi-tarifi/"
+    },
+    {
+      "id": "4",
+      "title": "Ring Kebab",
+      "description": "Serves 8-10, 15 min Preparation, 30 min Cooking",
+      "ingredients": [
+        "500 grams ground meat",
+        "1 teaspoon salt",
+        "Half teaspoon black pepper",
+        "3 eggplants",
+        "3 potatoes"
+      ],
+      "preparation": "Peel the eggplants in a striped pattern and slice them into half finger-width pieces. Then, add salt to a bowl of water and mix, place the eggplants in the water for 20 minutes to remove their bitterness. Peel the onions and slice them into circular shapes.",
+      "image": "halka-kebabi.jpg",
+      "url": "https://www.nefisyemektarifleri.com/video/halka-kebabi/"
+    },
+    {
+      "id": "5",
+      "title": "Stuffed Eggplant (Karniyarik)",
+      "description": "Serves 8-10, 15 min Preparation, 30 min Cooking",
+      "ingredients": [
+        "6 small eggplants",
+        "3 green peppers",
+        "2 medium onions",
+        "2 tomatoes",
+        "2 green peppers"
+      ],
+      "preparation": "Peel the eggplants in stripes and soak them in salted water for half an hour to prevent oil absorption. After washing thoroughly, dry them with a towel and fry in little oil. Fry 3 peppers in the oil as well. Then, in the same pan, sauté the chopped onions, add the ground meat and cook for a while, then add peppers and garlic and cook for 2 more minutes.",
+      "image": "karniyarik.jpg",
+      "url": "https://www.nefisyemektarifleri.com/video/karniyarik-yemegi-videosu/"
+    },
+    {
+      "id": "6",
+      "title": "Sultan's Chicken Kebab",
+      "description": "Serves 8-10, 15 min Preparation, 30 min Cooking",
+      "ingredients": [
+        "2 phyllo dough sheets",
+        "400g chicken breast",
+        "400g chicken chops",
+        "1 dry onion",
+        "1 tablespoon tomato paste"
+      ],
+      "preparation": "Peel the eggplant in stripes, cut into small pieces and fry in oil. Let it drain in a colander while you sauté the chicken. Cut the chicken into small cubes and cook in a pot, stirring occasionally. When it changes color and releases its juices, add the chopped onion.",
+      "image": "tavuklu-sultan-kebabi.jpg",
+      "url": "https://www.nefisyemektarifleri.com/tavuklu-sultan-kebabi-tarifi/"
+    },
+    {
+      "id": "V1mpn7q",
+      "title": "Holiday Dessert",
+      "description": "Serves 12-14, 25 min Preparation, 25 min Cooking",
+      "ingredients": [
+        "150 grams butter/margarine",
+        "2 eggs (separate 1 yolk)",
+        "A little less than half a tea glass of vegetable oil"
+      ],
+      "preparation": "First, prepare the syrup. Put the syrup ingredients in a pot and bring to a boil. Once it starts boiling, simmer on medium heat for 12 minutes and let it cool. Then, prepare the filling. Combine semolina, milk, and vanilla in a pot and whisk until it starts boiling. Let the semolina filling cool. For the dough, combine all dough ingredients except the flour in a mixing bowl. Gradually add flour and knead to obtain a soft dough that does not stick to your hands.",
+      "image": "bayram-tatlisi.jpg",
+      "url": "https://www.nefisyemektarifleri.com/bayram-tatlisi-istanbul-tatlisi-videolu/"
+    },
+    {
+      "id": "1-L9HgI",
+      "title": "Easy Chocolate Cake",
+      "description": "Serves 4-6, 30 min Preparation, 25 min Cooking",
+      "ingredients": [
+        "3 eggs (at room temperature)"
+      ],
+      "preparation": "For the cake, place the eggs in a mixing bowl. Add sugar and whisk until foamy. Add vegetable oil and milk. Then, sift flour, cocoa, baking powder, and vanilla into the bowl and mix again. Pour the prepared mixture into a greased square baking dish (29 cm x 29 cm) and spread evenly.",
+      "image": "bayram-tatlisi.jpg",
+      "url": "https://www.nefisyemektarifleri.com/video/kolay-cikolatali-pasta/"
     }
   ]
 }
