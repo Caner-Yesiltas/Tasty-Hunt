@@ -10,10 +10,11 @@ import MainLayout from './layouts/MainLayout';
 const routes = createBrowserRouter([
 
   { path: '/', element: <MainLayout/>,  
-    children:
-    [  { path: '/', element: <Home /> },
+    children: [ 
+      { path: '/', element: <Home /> },
+      { path: 'recipes', element: <Home /> },
       { path: 'create', element: <Create /> },
-      { path: 'details/:id', element: <Details /> },
+      { path: 'recipes/:id', element: <Details /> },
       { path: 'search', element: <Search /> }, ]    },
 
 ]);
