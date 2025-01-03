@@ -6,7 +6,7 @@ const Details = () => {
   const { id } = useParams();
   const url = 'http://localhost:3000/recipes/' + id;
 
-  const {data:recipe, isLoading } = useFetch(url)
+  const {data:recipe, isLoading, error } = useFetch(url)
 
 
   return (
@@ -14,6 +14,7 @@ const Details = () => {
       {
   isLoading && <div className="alert alert-warning">Loading...</div>
 }
+{error && <div className='alert alert-danger'>{error}</div>}
       {recipe && (
         <>
           <div className='col-4'>

@@ -3,6 +3,7 @@ const { useState, useEffect } = require('react');
 const useFetch = (url) => {
   const [data, setData] = useState(null);
   const [isLoading, setIsLoading] = useState(false)
+  const [error, setError] = useState(null)
 
   useEffect(() => {
     // fetch(url)
@@ -11,17 +12,34 @@ const useFetch = (url) => {
 
     const fetchData = async () => {
         setIsLoading(true);
-      const res = await fetch(url);
-      const data = await res.json();
-      setIsLoading(false);
-      setData(data);
+
+        try {
+            const res = await fetch(url);
+            if (!res.ok) {
+                throw new Error(res.statusText);
+            }
+
+            const data = await res.json();
+            setIsLoading(false);
+            setData(data);
+
+        } catch (error) {
+            setIsLoading(false);
+            setError("error");
+            console.log(error.message);
+            
+        }
+
+
+
+     
     };
 
     fetchData();
   }, [url]);
 
   return {
-    data, isLoading
+    data, isLoading, error
   };
 };
 
